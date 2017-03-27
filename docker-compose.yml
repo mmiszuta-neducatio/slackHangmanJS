@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  app:
+    container_name: slack-hangman
+    image: node:latest
+    environment:
+      - SLACK_TOKEN=yourSecretToken
+    volumes:
+      - ".:/slackHangmanJS"
+    working_dir: /slackHangmanJS
+    tty: true
+    stdin_open: true
