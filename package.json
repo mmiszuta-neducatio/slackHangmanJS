@@ -26,6 +26,8 @@
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
     "eslint": "^3.18.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "mocha-sinon": "^2.0.0",
+    "slack-mock": "^1.0.1"
   }
 }
